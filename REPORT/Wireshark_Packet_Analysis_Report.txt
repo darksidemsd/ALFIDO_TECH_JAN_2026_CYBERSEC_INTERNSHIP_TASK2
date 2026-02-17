@@ -1,9 +1,6 @@
 WIRESHARK PACKET ANALYSIS REPORT
 
-Student Name:
-Course:
 Lab Title: Wireshark Packet Analysis
-Date:
 
 
 1. OBJECTIVE
@@ -105,3 +102,4 @@ The following were identified:
 - No suspicious or malformed packets detected
 
 This lab demonstrated the fundamental concepts of packet analysis and protocol identification using Wireshark.
+
