@@ -1,0 +1,48 @@
+==============================
+COMMANDS USED IN THE LAB
+==============================
+
+1. Generate DNS Traffic
+nslookup google.com
+
+2. Flush DNS Cache (to force fresh DNS query)
+ipconfig /flushdns
+
+3. Generate ICMP Traffic (Ping)
+ping google.com
+
+4. Open HTTP Website (Browser Address Bar)
+http://example.com
+
+5. Alternative HTTP Website
+http://neverssl.com
+
+------------------------------
+WIRESHARK DISPLAY FILTERS USED
+------------------------------
+
+1. Show All DNS Traffic
+dns
+
+2. Show Only DNS Queries
+dns.flags.response == 0
+
+3. Show Only DNS Responses
+dns.flags.response == 1
+
+4. Show TCP Handshake Packets
+tcp.flags.syn == 1
+
+5. Show All HTTP Traffic
+http
+
+6. Show TCP Analysis (Errors / Retransmissions)
+tcp.analysis.flags
+
+7. Show QUIC Traffic
+quic
+
+8. Show Only TCP Traffic
+tcp
+
+==============================
